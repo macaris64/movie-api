@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/macaris64/movie-api/issues"
   },
-  "homepage": "https://github.com/macaris64/movie-api#readme"
+  "homepage": "https://github.com/macaris64/movie-api#readme",
+  "devDependencies": {
+    "mongoose": "^5.7.7"
+  }
 }

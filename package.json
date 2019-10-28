@@ -1,0 +1,31 @@
+{
+  "name": "movie-api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  },
+  "description": "A Movie API app",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macaris64/movie-api.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "mehmetacar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macaris64/movie-api/issues"
+  },
+  "homepage": "https://github.com/macaris64/movie-api#readme"
+}
